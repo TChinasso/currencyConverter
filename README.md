@@ -2,19 +2,18 @@
 https://moneyconverter.netlify.app/
 
 ## Project details
- Projeto construido com VueJS + Bulma CSS utilizando a API Restfull https://exchangeratesapi.io/
+ Project built with VueJS + Bulma CSS, consuming the API Restfull https://exchangeratesapi.io/
  
-## Conceitos aplicados
- * Consumo de API RESTfull
- * Uso da logica para criar uma função que a partir da taxa do EURO, consiga realizar a conversão de qualquer moeda
- * Utilizado como referencia o conversor do google
- * Conversão de mão dupla
- * Reatividade na conversão
+## Applied concepts
+ * Consuming API RESTfull
+ * Logical use to create a function wich, based on EURO rates, makes any conversions to any currency
+ * Two ways data bindig
+ * Reactivity
  
- ### A versão
- 
-Nessa primeira versão o app realiza a conversão das moedas com base nas taxas do banco central europeu,
-as taxas são atualizadas diariamente, resultando na atualização automatica do app via API
+ ### This version
+
+In this version, the app makes the currency conversion based on foreign exchange rates published by Eropean Central bank.
+Rates are updated 16:00 CET on every work day, wich makes the APP´s altomatical update via API RESTfull
  
  
  
